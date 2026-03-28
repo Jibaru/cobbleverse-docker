@@ -20,6 +20,7 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: "MODRINTH"
+      JAVA_VERSION: "21"
       USE_AIKAR_FLAGS: "true"
       MEMORY: "${MEMORY:-8G}"
       MODRINTH_MODPACK: "${MODRINTH_MODPACK:-}"
